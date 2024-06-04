@@ -8,7 +8,11 @@ versal不同于MPSoC，Versal内部有一个专门的PLM控制器，Versal初次
 
 ## Config U-Boot Boot Script (boot.scr)
 
+boot.scr 是Uboot的启动脚本，用来批处理Uboot启动引导所需要执行的命令，Uboot 引导内核使用boot命令，本质是执行bootcmd变量中的命令。
 
+Uboot脚本中有通过操作环境变量，来执行不同的逻辑，以实现差异化加载的目的。
+
+Uboot默认加载boot.scr并执行boot.scr中的逻辑，我们可以将Uboot的AB方案实现在脚本中，同时使用同一套代码兼容QSPI启动和EMMC Uboot启动，不用强行执行逻辑，每次Uboot启动后执行“代码”中的逻辑，使用脚本逻辑相比于使用代码逻辑可以实现更加方便的差异化引导。
 
 ## EMMC分区划分（SD卡同样适用）
 
