@@ -101,6 +101,32 @@ Versal> booti 0x00200000 0x04000000 0x00001000
 
 设备初次上电通过QSPI引导
 
+### Versal 分段配置引导 Segmented Configuration Flow
+
+在PL加载之前 分段加载可以使操作系统快速启动。无限延迟PL加载，能够通过任何主或者辅助引导接口加载PL PDI。
+
+（参考UG1144） Appx A Migration——FPGA Manager Full PL Programming——Versal （Segmented Configuration Flow）
+
+需要生成一个 Versal flat design（扁平设计？xsa）
+
+#### 步骤
+
+1. Petalinux config中 勾选 FPGA Manager
+
+选项启用了如下特性：
+
+* fpga overlay Machine features
+* 开启并使能了 内核 fpgaprogrammer driver
+
+2. 创建一个 pl 应用程序，将 pl pdi 和 pl ips dtbo 打包进文件系统中
+
+```
+petalinux-create -t apps  -n pl-app --
+enable --srcuri "<path>/rprm.xsa>"
+```
+
+
+
 ### 问题：
 
 {% hint style="info" %}

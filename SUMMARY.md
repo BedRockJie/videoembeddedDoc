@@ -20,6 +20,7 @@
     * [VCK190开发板](soc-platfrom/amd-versal/vck190-kai-fa-ban.md)
     * [Versal启动引导流程](soc-platfrom/amd-versal/versal-qi-dong-yin-dao-liu-cheng.md)
     * [Uboot启动流程](soc-platfrom/amd-versal/uboot-qi-dong-liu-cheng.md)
+    * [交付镜像打包](soc-platfrom/amd-versal/jiao-fu-jing-xiang-da-bao.md)
     * [Versal升级方案](soc-platfrom/amd-versal/versal-sheng-ji-fang-an.md)
     * [Versal开发环境搭建](soc-platfrom/amd-versal/versal-kai-fa-huan-jing-da-jian.md)
     * [TRD 参考示例（MRMAC）](soc-platfrom/amd-versal/trd-can-kao-shi-li-mrmac.md)

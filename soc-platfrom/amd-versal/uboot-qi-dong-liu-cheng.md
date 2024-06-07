@@ -82,3 +82,6 @@ distro_bootcmd=scsi_need_init=; for target in ${boot_targets}; do run bootcmd_${
 * boot.scr file + individual files ( Image , system.dtb, etc.)
 
 我们选用 boot.scr file  + image.ub 的启动方案来验证。
+
+## Boot scr方案启动AB系统
+

@@ -19,9 +19,6 @@ PMC 负责 Versal 平台的平台管理，包括引导和配置，其中主要�
 
 PPU：包含一个Microblaze 处理器和专用的384KB PPU RAM，PPU中的程序主要运行加载PLM。
 
-```
-```
-
 目前在Yocto中生成BOOT.BIN 的 bif 文件如下：
 
 ```
@@ -41,7 +38,10 @@ the_ROM_image:
 }
 ```
 
+目前Vivado也会生成boot.bin生成boot.bin 的bif文件如下：
 
+```
+```
 
 ## 生产烧录方案
 
