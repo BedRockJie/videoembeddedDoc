@@ -37,9 +37,11 @@ SDK的大版本通过更新repo xml来进行迭代更新。
 
 所以需要引入“中转服务器”，大概框架如下：
 
-
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 中转服务器建立原厂代码服务器和公司内部代码服务器同步桥梁。由于repo管理git仓库，需要保证每一个仓库都记录原厂Release信息的单独分支，该分支仅更新原厂合并提交代码。
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 我们内部的基线为master分支，该分支作为产品使用基线，原则如下：
 
@@ -50,3 +52,4 @@ SDK的大版本通过更新repo xml来进行迭代更新。
 产品上需要解决的原厂已经解决的问题，或者Patch，通过cherry-pick合入，在最后全部rebase到基线分支中。
 
 ## 如何实施同步
+
