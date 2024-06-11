@@ -2,9 +2,16 @@
 
 ## 现状——问题
 
-我们对于Soc器件的开发基于原厂（Rockchip）某一release版本的Linux SDK，Rockchip的SDK对外发布使用Repo+Git的方式对外发布，同时需要客户
+我们对于Soc器件的开发基于原厂（Rockchip）某一release版本的Linux SDK，Rockchip的SDK对外发布使用Repo+Git的方式对外发布，客户基于SDK开发时需要注意保留rockchip的git及repo提交记录，SDK同步版本记录等，方便rockchip进行问题确认。
 
+当前我司在进行Soc使用开发产品迭代产品种类多，迭代周期长（2年）
 
+在此期间出现多次因厂商修复Bug而产品未及时合并导致产品出现严重问题。对于ARM Soc平台维护来讲，需要核心解决如下问题：
+
+* 及时接收原厂的SDK同步及更新，并及时在内部进行同步更新。
+* 及时接收原厂Patch并在内部主动合并同步。
+
+### 不可控因素
 
 因为国内厂商自身的问题，Uboot 和 Linux Kernel 喜欢 “深度定制” 并为积极向主线上提交代码，而是被动的接收主线代码的更新及同步合并（每次选择一个Release 长期支持分支进行维护）
 
