@@ -24,3 +24,6 @@
     * [Versal升级方案](soc-platfrom/amd-versal/versal-sheng-ji-fang-an.md)
     * [Versal开发环境搭建](soc-platfrom/amd-versal/versal-kai-fa-huan-jing-da-jian.md)
     * [TRD 参考示例（MRMAC）](soc-platfrom/amd-versal/trd-can-kao-shi-li-mrmac.md)
+  * [Rockchip平台入门](soc-platfrom/rockchip-ping-tai-ru-men/README.md)
+    * [BSP代码同步](soc-platfrom/rockchip-ping-tai-ru-men/bsp-dai-ma-tong-bu.md)
+    * [rk356x](soc-platfrom/rockchip-ping-tai-ru-men/rk356x.md)
