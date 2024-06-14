@@ -5,7 +5,7 @@
   * [视频信号度量](first-video/shi-pin-xin-hao-du-liang.md)
   * [常见视频接口](first-video/chang-jian-shi-pin-jie-kou.md)
 * [嵌入式基础知识](emb-basics-knowage/README.md)
-  * [Page](emb-basics-knowage/page.md)
+  * [CodingType](emb-basics-knowage/codingtype.md)
 * [计算机网络](emb-network.md)
 * [嵌入式平台资料](soc-platfrom/README.md)
   * [Intel Agilex平台入门](soc-platfrom/intal-agilex/README.md)
